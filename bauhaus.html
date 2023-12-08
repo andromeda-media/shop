@@ -23,12 +23,18 @@
 	<br>Email: <span style="color:red">*</span> <br> <input type="email" name="studentemail" required> <br>
 	<br><br>Payment Preference <br><br>
 	<br><br><input type="radio" name="payment" value="Credit Card">
-	<br><input type="radio" name="paymnent" value="Debit Card">
+	<br><input type="radio" name="payment" value="Debit Card">
 	<br><input type="radio" name="payment" value="Apple Pay">
 <br><br>Shipping adress: <br>
 	<br><br><textarea rows="5" cols="50" name="comment"> Enter Adress</textarea>
 	<br>
+	<label for="country_code">Country code:</label>
+  	<input type="text" id="country_code" name="country_code"
+ 	 pattern="[A-Za-z]{3}" title="Three letter country code">
 	<input type="submit" value="Submit your Order">
+	<br><br>Quanitity: <br>
+	<br><br><textarea rows="5" cols="50" name="comment"> Enter Adress</textarea>
+	<br>
 </form>
         
 </body>
