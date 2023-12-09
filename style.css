@@ -1,6 +1,6 @@
 #title {color:salmon; text-align:center;}
-h1 {text-align:center; color:salmon;}
-h2 {text-align:center; color:salmon;}
-h3 {color:salmon;}
-button {color:darkred; background-color:lightpurple}
-form {color:salmon;}
+h1 {text-align:center; color:salmon; background-color:rgb(230, 230, 250);}
+h2 {text-align:center; color:salmon;background-color:rgb(230, 230, 250);}
+h3 {color:salmon; background-color:rgb(230, 230, 250);}
+button {color:darkred; background-color:rgb(230, 230, 250);}
+form {color:salmon; background-color:rgb(230, 230, 250);}
